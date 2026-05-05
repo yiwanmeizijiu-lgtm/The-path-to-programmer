@@ -1,0 +1,28 @@
+.vs/
+packages/
+
+# Build outputs
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Keep the vendor Modbus DLL referenced by the project file.
+!luosiji/bin/
+luosiji/bin/*
+!luosiji/bin/ModbusProtocol.dll
+
+# User/local files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Runtime data
+luosiji/bin/Debug/
+luosiji/bin/Release/
+luosiji/bin/**/Data/
+luosiji/bin/**/Log/
+luosiji/bin/**/setting.dat
